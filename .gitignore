@@ -1,0 +1,7 @@
+# Ignorar archivos y carpetas específicos
+node_modules/
+.env
+
+
+# Ignorar todos los archivos con la extensión .log
+*.log
