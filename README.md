@@ -5,7 +5,7 @@ SONORO - TEAM.
 3)Mantener más seguro los datos del usuario.
 
 
-v.1) Crear post al usuario incluye playlist.
+v.1) Crear post al usuario incluye playlist. </br>
 V.2) Se agrega CRUD completo para solicitar informacion de usuario.
 
 
