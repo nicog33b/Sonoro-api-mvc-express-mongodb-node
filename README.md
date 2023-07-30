@@ -6,7 +6,8 @@
 
 
 v.1) Crear post al usuario incluye playlist. </br>
-V.2) Se agrega CRUD completo para solicitar informacion de usuario.
+V.2) Se agrega CRUD completo para solicitar informacion de usuario. </br>
+v.3) Modelo-Vista-Controlador (MVC) completo.
 
 
 
