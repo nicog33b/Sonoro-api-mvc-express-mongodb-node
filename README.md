@@ -6,6 +6,7 @@ SONORO - TEAM.
 
 
 v.1) Crear post al usuario incluye playlist.
+V.2) Se agrega CRUD completo para solicitar informacion de usuario.
 
 
 
