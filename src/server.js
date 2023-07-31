@@ -1,9 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./mongodb'); // Asumo que el archivo se encuentra en la misma carpeta que server.js
-
 const app = express();
+const dotenv = require('dotenv');
 
+const port = process.env.PORT;
+// Cargamos las variables de entorno desde el archivo .env
+dotenv.config();
 // Configurar el middleware para permitir solicitudes desde cualquier origen (CORS)
 app.use(cors());
 

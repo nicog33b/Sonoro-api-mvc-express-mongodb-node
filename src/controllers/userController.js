@@ -4,7 +4,7 @@ const userSchema = require('../models/userSchema');
 exports.createUser = async (req, res) => {
   try {
     const { name, email, birthdate, country, premium, followers, playlists } = req.body;
-    const newUser = new userSchema({ name, email, birthdate, country, premium, followers, playlists});
+    const newUser = new userSchema({ name, email, birthdate, country, premium, followers, playlists });
     const savedUser = await newUser.save();
     res.json(savedUser);
   } catch (error) {
@@ -16,7 +16,7 @@ exports.createUser = async (req, res) => {
 exports.getUserById = async (req, res) => {
   try {
     const userId = req.params.userId;
-    const user = await userSchema.findById(userId);
+    const user = await userSchema.findById(userId).select('-playlists'); // Excluir el campo playlists
 
     if (!user) {
       return res.status(404).json({ message: 'Usuario no encontrado.' });
