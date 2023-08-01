@@ -7,8 +7,8 @@
 
 v.1) Crear post al usuario incluye playlist. </br>
 V.2) Se agrega CRUD completo para solicitar informacion de usuario. </br>
-v.3) Modelo-Vista-Controlador (MVC) completo.
-
+v.3) Modelo-Vista-Controlador (MVC) completo de usuario.. </br>
+v.4) Uso de variables de entorno local(env-dotenv), creación de un modelo individual interdependiente entre si de los modelos user,playlist y song.
 
 
 
