@@ -7,8 +7,12 @@ const dotenv = require('dotenv');
 const port = process.env.PORT;
 // Cargamos las variables de entorno desde el archivo .env
 dotenv.config();
-// Configurar el middleware para permitir solicitudes desde cualquier origen (CORS)
-app.use(cors());
+
+const corsOptions = {
+  origin: ['http://localhost:3000'], // Agrega aquí los dominios permitidos
+};
+
+app.use(cors(corsOptions));
 
 // Configurar el middleware para parsear datos JSON
 app.use(express.json());

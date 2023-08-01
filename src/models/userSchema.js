@@ -6,6 +6,8 @@ const playlist = require('./playlistSchema')
 const userSchema = new mongoose.Schema({
   name: { type: String },
   email: { type: String },
+  phone: {type:Number},
+  password: {type:String},
   birthdate: { type: String },
   country: { type: String },
   premium: { type: Boolean, default: false },

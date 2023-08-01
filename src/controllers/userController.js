@@ -3,8 +3,8 @@ const userSchema = require('../models/userSchema');
 // Controlador para registrar un nuevo usuario
 exports.createUser = async (req, res) => {
   try {
-    const { name, email, birthdate, country, premium, followers, playlists } = req.body;
-    const newUser = new userSchema({ name, email, birthdate, country, premium, followers, playlists });
+    const { name, email, password, phone , premium, followers} = req.body;
+    const newUser = new userSchema({ name, email,password, phone, premium, followers});
     const savedUser = await newUser.save();
     res.json(savedUser);
   } catch (error) {
