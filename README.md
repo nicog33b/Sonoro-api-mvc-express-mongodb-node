@@ -1,12 +1,13 @@
 # 🎧 SONORO - TEAM API
 
-**SONORO - TEAM** es una API diseñada para facilitar la gestión de datos extraídos de la API de Spotify, ofreciendo una estructura robusta y segura para manejar la información de cada usuario de manera individual. Esta API no solo mejora la eficiencia en la gestión de datos, sino que también asegura que los datos de los usuarios se mantengan protegidos.
+**SONORO - TEAM** es una API creada con el objetivo de hacer que Spotify sea más accesible y fácil de usar, especialmente para personas mayores. La API proporciona una interfaz de usuario mejorada y una estructura de datos que facilita la navegación y el uso de la plataforma, asegurando que todos puedan disfrutar de su música favorita sin complicaciones.
 
 ## 🛠️ Funcionalidades Principales
 
-1. **Gestión Eficiente de Datos**: Proporciona recursos y estructuras que permiten manejar de forma más cómoda los datos extraídos de la API de Spotify para cada usuario individualmente.
-2. **Flujo de Usuarios**: Maneja y optimiza el flujo de usuarios en la plataforma Sonoro.
-3. **Seguridad Mejorada**: Mantiene los datos del usuario más seguros mediante prácticas avanzadas de seguridad.
+1. **Accesibilidad Mejorada**: Desarrollada para mejorar la experiencia de usuarios mayores, ofreciendo una interfaz de usuario simplificada y más intuitiva para Spotify.
+2. **Gestión Eficiente de Datos**: Proporciona recursos y estructuras que permiten manejar de forma más cómoda los datos extraídos de la API de Spotify para cada usuario individualmente.
+3. **Flujo de Usuarios**: Maneja y optimiza el flujo de usuarios en la plataforma Sonoro.
+4. **Seguridad Mejorada**: Mantiene los datos del usuario más seguros mediante prácticas avanzadas de seguridad.
 
 ## 🚀 Evolución del Proyecto
 
@@ -24,7 +25,4 @@
   - Maximo
 
 
-
----
-
-**SONORO - TEAM** - Mejora la experiencia musical para gente mayor  mientras mantienes sus datos seguros y bien gestionados.
+**SONORO - TEAM** - Haciendo la música más accesible para todos, mientras mantenemos la seguridad y la gestión eficiente de los datos del usuario.
